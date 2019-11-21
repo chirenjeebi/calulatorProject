@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(243, 243, 237);
+    margin: 0;
+    padding: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+   
+    margin: 0;
+    overflow: hidden;
+}
+header {
+    background-color: rgb(122, 199, 224);
+    color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 60px;
+    border-bottom: #5255e7 3px solid;
+    width: 85%;
+
+}
+header ul{
+    margin: 0;
+    padding: 0;
+
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 20px 20px 0 20px;
+    font-weight: bold;
+}
+
+#logo{
+    margin-top: 7px;
+    float: left;
+    height: 60px;
+    width: 60px;
+}
+#back-image{
+    background: url(park.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 700px;
+    background-size: cover;
+    margin-left: 11.5%;
+    /* overflow: hidden; */
+    margin-right: 11.5%; 
+}
+#dog1{
+    border-radius: 50%;
+    margin: 10% 30% 20% 40%;
+    width: 30%;
+    height: 50%;
+}
+
+.calculator{
+    border: 3px solid blue;
+    margin: 10px;
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+    
+}
+#num1{
+    margin-left: 21%;
+}
+#num2{
+    margin-left: 15%;
+}
+#opr{
+    margin-left: 45%;
+}
+#operator{
+    margin-left: 45%;
+}
+#result{
+    margin-left: 30%;
+}
+
+

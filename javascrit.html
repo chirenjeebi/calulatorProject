@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+            <h2>Simple Calculator</h2>
+            <hr>
+
+        <form action="">
+        
+        <label for="firstnum">First Number:</label>
+        <input type="text" id="num1" ><br><br>
+        <label for="secondnum">Second Number:</label>
+        <input type="text" id="num2"><br>
+        
+        <h3>Select Option</h3>
+        <select name="Option" id="opr">
+                
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option> <br>
+        </select><br> <br>&nbsp;
+        <input id="operator" type="Button" value="   =   " onclick="calculation()">
+
+        <br>
+        <br>
+        Answer: <input type="text" id="result"><br><br>
+    </form>
+    </div>
+    
+</body>
+<script src="Script.js"></script>
+</html>
